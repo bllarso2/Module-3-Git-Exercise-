@@ -1,0 +1,33 @@
+Responses in green
+Your names and a title for your project
+David Cooper
+Brad Larson
+Description of the problem you are trying to solve
+In the healthcare industry forecasting errors around length-of-stay (LOS) can lead to significant revenue losses. The impact of overestimating or underestimating LOS can lead to inefficiencies in staffing, resource allocation, and patient flow, while also increasing the risk of penalties, poor outcomes, and lost market opportunities. 
+A list of basic functionality aka basic features (at least one per team member)
+To help solve this problem the proposed solution is to take existing data from a hospital client and begin to integrate other factors such as lifestyle to increase probability in forecasting LOS. Using asset based modeling the intent is to create an interactive dashboard allowing for users to test different lifestyles against a baseline average LOS to see if more accurate predictions are available. 
+A list of nice-to-have functionality aka nice-to-have features (at least one per team member)
+Computational Models
+Agent based models
+Revenue Project model (ranges of time from 6mo - 1yr - 5yr -10yr)
+Comparison tool to other hospitals - local, regionalized, country
+Web based dashboard 
+A paragraph about the challenges you anticipate. There should be at least three challenges listed:
+BL: For this project, I anticipate three main challenges: limited experience with Python, restricted time for collaboration, and no prior exposure to the healthcare industry. Since I am only available for collaboration after 4pm due to work commitments, balancing my schedule will be difficult. Additionally, I will need to spend extra time understanding the significance of LOS and its impact on operations and revenue as this understanding will be crucial for contributing to the logic behind the Python work. Overcoming these challenges will require effective time management, a focus on improving my technical skills, and a commitment to gaining deeper knowledge of the healthcare industry.
+a technical challenge you foresee (e.g. do you know all the technologies you would need)
+The first part is fairly straightforward: Build a computational model to better predict length of stay. A regression model will do the trick. But then building an ABM to factor in other dynamics such as lifestyle could prove problematic. 
+a challenges regarding your process (e.g. what could make collaborating difficult)
+We are on different time zones, but that’s hardly insurmountable. 
+a challenge regarding the team composition or available skills (e.g. a large discrepancy in skills)
+I (Dave) code a good bit, although I will never say my skills are beyond mediocre, since I can’t model the climate or the economy. I’ve also built a good many ABMs for pedagogical purposes. Brad does less coding, but none of that is an issue. Aside from the primary problem–predicting length of stay—this project will be much more about creativity than anything else. It’s not a technically challenging problem to begin with, but a fun one that could prove useful. 
+A paragraph about how you plan to work together and communicate as a team (e.g., do you plan to meet on Zoom to work on your project or individually while communicating via Slack?)
+To ensure effective collaboration and communication as a team we plan to establish a shared Google Drive to store all project-related files, documents, and resources, making them easily accessible.. This centralized system will help keep our work organized and allow us to work independently when needed. We will use email as our primary communication method for formal updates and discussions to ensure that everyone remains informed and aligned on the project's progress. Additionally, we will schedule recurring meetings to act as checkpoints for reviewing delegated tasks, tracking progress, and resolving any challenges or roadblocks. These meetings will provide an opportunity for real-time collaboration, fostering accountability and maintaining momentum toward successfully completing the project.
+
+
+
+
+Original Discussion Post:
+I loved reading through the proposed projects above. Impressive! Alas, mine is not so impressive--at least not at the outset. I'm hoping to do something that's pretty simple: Predict length-of-stay (LoS) for a hospital client of mine using a mix of computational and agent-based models. The first part is fairly straightforward because I've already done it--but I use Dataiku for most of these issues. It brings data science, ML, and AI together in a fairly easy-to-use format. But I'd like to take the patient data and write a Python program that could do the same.
+Since healthcare in the US is big business (unfortunately), prediction errors in length-of-stay can lead to significant revenue losses. I know this because my lovely wife is a healthcare exec. With the data I have from a client, writing code to predict LoS is, as I said, relatively straightforward--so straightforward I'm sure I could do it even with my mediocre coding skills (I orignally used a regression model in Dataiku, so doing the same in Python isn't that much of a stretch). But then it would be interesting to see how lifestyle factors, like alcohol, tobacco use, exercise, and diet, might contribute to a patient's LoS and how such factors might contribute to more accurate forecasting. Since I don't have access to such data, this could be an area where I bring in an ABM, using sliders, perhaps, to increase or decrease parameters and see how it might impact the original prediction from the Python model. 
+
+
